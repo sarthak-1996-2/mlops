@@ -28,7 +28,7 @@ This project demonstrates how to:
 
 ```text
 .
-├── ml.py                    # Streamlit application
+├── main.py                    # Streamlit application
 ├── requirements.txt         # Python dependencies
 ├── cars24-car-price.xlsx    # Car price dataset
 ├── car_pred                 # Pre-trained ML model
@@ -80,7 +80,7 @@ pip install -r requirements.txt
 Start the Streamlit application using:
 
 ```bash
-streamlit run ml.py
+streamlit run main.py
 ```
 
 After starting the application, Streamlit will provide a local URL in the terminal. Open that URL in your browser to access the application.
@@ -182,7 +182,7 @@ Some features currently use fixed/default values in the application, while the u
 
 ## ⚠️ Important
 
-Make sure the following files are present in the same directory as `ml.py`:
+Make sure the following files are present in the same directory as `main.py`:
 
 ```text
 cars24-car-price.xlsx
@@ -197,7 +197,7 @@ For a quick setup:
 
 ```bash
 pip install -r requirements.txt
-streamlit run ml.py
+streamlit run main.py
 ```
 
 That's it! The Cars24 Used Car Price Prediction application will start locally.
